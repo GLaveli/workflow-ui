@@ -23,8 +23,6 @@ export default function Header() {
    <div className="sidebar">
     <center>
      <img src={certImage} className="menu_image" alt="imgTopo" />
-     <hr />
-     <span className="menuTitle">Menu</span>
     </center>
     <div className="itemContainer">
      <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>

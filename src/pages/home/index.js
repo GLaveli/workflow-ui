@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 
 import Header from '../../components/header';
+import Card from '../../components/cards';
 
 export default function Home() {
 
@@ -9,7 +10,7 @@ export default function Home() {
   <>
    <Header />
    <div className="content">
-    
+
    </div>
   </>
  )
