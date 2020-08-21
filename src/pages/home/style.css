@@ -12,7 +12,7 @@
 }
 
 .content {
- display: flex;
+ display: block;
  flex-wrap: wrap;
  flex-direction: row;
  justify-content: space-evenly;
@@ -20,4 +20,32 @@
 
 .content {
  flex: 1 1 180px;
+}
+
+.card_area{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 60px 10px 30px 10px;
+}
+
+.card_area .card {
+ min-height: 150px;
+ min-width: auto;
+ border-radius: 15px;
+ background-color: #fff;
+}
+
+.card_area .cardheader {
+ width: auto;
+ text-align: center;
+ font-size: 16px;
+ font-weight: 700;
+ border-radius: 5px;
+ color: #fff;
+ background-color: #43415d;
+}
+
+.card_area .cardheader.cardBody{
+ width: auto;
 }

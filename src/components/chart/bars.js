@@ -37,14 +37,21 @@ let charData = {
  }],
 }
 
+export default function Chart(props) {
+ let dafaultWidth = 500;
+ let dafaultHeight = 300;
 
-export default function Chart() {
+ if (props.width !== undefined) {
+ // dafaultWidth = props.width;
+ }
+
+
  return (
   <>
    <Bar
     data={charData}
-    width={700}
-    height={300}
+    width={dafaultWidth}
+    height={dafaultHeight}
    />
   </>
  );

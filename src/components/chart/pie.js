@@ -41,10 +41,10 @@ let charData = {
 export default function Chart() {
  return (
   <>
-   <Line
+   <Pie
     data={charData}
     width={700}
-    height={100}
+    height={300}
    />
   </>
  );

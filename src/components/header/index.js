@@ -31,6 +31,22 @@ export default function Header() {
      <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
     </div>
    </div>
   </div>
