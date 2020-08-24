@@ -4,6 +4,7 @@ import './style.css';
 import Header from '../../components/header';
 import Bars from '../../components/chart/bars'
 import Lines from '../../components/chart/lines'
+import Pie from '../../components/chart/pie'
 
 export default function Home() {
 
@@ -31,7 +32,7 @@ export default function Home() {
        <span>Card 02</span>
       </div>
       <div className="cardBody">
-       <Bars />
+       <Pie />
       </div>
      </div>
 

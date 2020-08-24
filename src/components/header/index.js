@@ -1,5 +1,6 @@
 import React from 'react';
 import certImage from '../../assets/certi.png';
+import certImageLogo from '../../assets/certi_logo.png';
 
 import './style.css';
 export default function Header() {
@@ -21,9 +22,11 @@ export default function Header() {
    </header>
 
    <div className="sidebar">
-    <center>
+
+    <center className="center_image_checked" >
      <img src={certImage} className="menu_image" alt="imgTopo" />
     </center>
+
     <div className="itemContainer">
      <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
@@ -31,22 +34,31 @@ export default function Header() {
      <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
+     <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
      <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-     <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
+
     </div>
    </div>
   </div>
