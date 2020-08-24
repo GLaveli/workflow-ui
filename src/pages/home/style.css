@@ -24,9 +24,11 @@
 
 .card_area{
  display: flex;
+ flex-wrap: wrap;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: space-around;
  padding: 60px 10px 30px 10px;
+
 }
 
 .card_area .card {
@@ -34,6 +36,7 @@
  min-width: auto;
  border-radius: 15px;
  background-color: #fff;
+ margin-bottom: 15px;
 }
 
 .card_area .cardheader {
