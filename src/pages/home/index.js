@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import api from '../../services/api';
+
 import './style.css';
 
 import Header from '../../components/header';
@@ -7,6 +9,21 @@ import Lines from '../../components/chart/lines'
 import Pie from '../../components/chart/pie'
 
 export default function Home() {
+
+ let user_id = 1;
+ const email = 'teste@certi.com'
+
+ useEffect(() => {
+  api.get('/api', {
+   headers: {
+    user_id,
+    email
+   }
+  }).then(Response => {
+   console.log(Response.data);
+
+  });
+ }, [])
 
  return (
   <>
