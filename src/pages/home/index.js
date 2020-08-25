@@ -32,7 +32,7 @@ export default function Home() {
        <span>Card 02</span>
       </div>
       <div className="cardBody">
-       <Pie />
+       <Bars />
       </div>
      </div>
 
@@ -41,7 +41,7 @@ export default function Home() {
        <span>Card 03</span>
       </div>
       <div className="cardBody">
-       <Bars />
+       <Pie />
       </div>
      </div>
     </section>
